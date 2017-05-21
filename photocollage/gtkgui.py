@@ -453,7 +453,7 @@ class PhotoCollageWindow(Gtk.Window):
 
 class ImagePreviewArea(Gtk.DrawingArea):
     """Area to display the poster preview and react to user actions"""
-    INSENSITIVE, FLYING, SWAPPING = range(3)
+    INSENSITIVE, FLYING, SWAPPING = list(range(3))
 
     def __init__(self, parent):
         super(ImagePreviewArea, self).__init__()
